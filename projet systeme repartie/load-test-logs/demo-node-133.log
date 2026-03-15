@@ -1,0 +1,36 @@
+2026-03-15 15:44:19,732 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:44:24,742 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:44:29,744 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:44:34,745 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:44:39,745 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:44:44,746 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:44:49,746 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:44:54,747 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:44:59,747 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:04,748 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:09,748 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:14,748 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:19,749 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:24,750 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:29,750 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:34,750 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:39,751 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:44,751 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:49,751 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:54,752 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:45:59,752 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:46:04,752 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:46:09,753 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:46:14,753 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:46:19,753 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:46:24,754 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:46:29,754 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+2026-03-15 15:46:34,755 [WARNING] Connexion impossible ou interrompue: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/workspaces/SYSTEM-REPARTI/projet systeme repartie/client.py", line 204, in <module>
+    main()
+  File "/workspaces/SYSTEM-REPARTI/projet systeme repartie/client.py", line 200, in main
+    client.run()
+  File "/workspaces/SYSTEM-REPARTI/projet systeme repartie/client.py", line 180, in run
+    time.sleep(RECONNECT_DELAY)
+KeyboardInterrupt
