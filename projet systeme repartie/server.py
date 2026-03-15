@@ -385,7 +385,7 @@ def main():
         format="%(asctime)s [%(levelname)s] %(message)s",
     )
     server = MonitoringServer(
-        host=args.host,
+        host=args.host
         port=args.port,
         db_path=args.db,
         worker_count=args.workers,
