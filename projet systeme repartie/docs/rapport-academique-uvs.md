@@ -20,7 +20,8 @@
 | Dome FAYE | dome.faye@unchk.edu.sn |
 | Ibrahima Khalil SECK | ibrahimakhalil.seck@unchk.edu.sn |
 
-**Encadrant:** [Nom de l encadrant]
+**Encadrant:** 
+Maurice Djibril FAYE <mauricedjibril.faye@unchk.edu.sn>
 
 **Annee universitaire:** 2025-2026
 
