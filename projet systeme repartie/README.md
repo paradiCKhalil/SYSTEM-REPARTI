@@ -109,7 +109,7 @@ Exemples:
 - Les commandes `UP` et `DOWN` modifient l'etat logique des services cote agent. Elles ne tentent pas de demarrer un vrai service systeme, ce qui evite les problemes de permissions durant la demonstration.
 - Les metriques CPU, memoire, disque et uptime sont reelles via `psutil`. Les services et ports sont detectes localement sur la machine cliente.
 
-## Points a presenter dans le rapport
+## Points à presenter dans le rapport
 
 - architecture globale client-serveur
 - protocole applicatif JSON et gestion des erreurs
