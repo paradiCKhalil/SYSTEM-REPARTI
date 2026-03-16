@@ -304,9 +304,8 @@ class MonitoringServer:
 
         for row in rows:
             print(
-                f"{row['node_id']} {row['status']} last_seen={row['last_seen']} os={row['os_name']} cpu={row['cpu_model']} ip={row['last_ip']}"
+                f"{row['node_id']:<20} status={row['status']:<12} last_seen={row['last_seen'] or '-':<30} ip={row['last_ip'] or '-'}"
             )
-            
 
     def print_metrics(self, node_id=None):
         rows = self.repository.latest_metrics(node_id=node_id)
