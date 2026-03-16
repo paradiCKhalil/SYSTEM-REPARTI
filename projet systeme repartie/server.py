@@ -296,7 +296,17 @@ class MonitoringServer:
                 self.repository.record_event(node_id, "ALERT", "NODE_TIMEOUT", message, {}, timestamp)
                 logging.error(message)
 
-    
+    def print_nodes(self):
+        rows = self.repository.list_nodes()
+        if not rows:
+            print("Aucun noeud connu")
+            return
+
+        for row in rows:
+            print(
+                f"{row['node_id']} {row['status']} last_seen={row['last_seen']} os={row['os_name']} cpu={row['cpu_model']} ip={row['last_ip']}"
+            )
+            
 
     def print_metrics(self, node_id=None):
         rows = self.repository.latest_metrics(node_id=node_id)
