@@ -1,7 +1,5 @@
 # Universite Numerique Cheikh Hamidou Kane
 
-## UFR Sciences et Technologies
-
 ### Master 1 SRIV
 
 
